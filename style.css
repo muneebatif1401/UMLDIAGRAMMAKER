@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btnColor {
+    background:#18184C;
+    border-radius: 50px;
+    width: 103.66px;
+    height: 42.65px;
+    left: 1344px;
+    top: 44px;
+
+}
+
+.navColor {
+    
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1976D2;
+    
+
+}
+.textColor {
+    color: white;
+}
+.img{
+position: absolute;
+width: 564px;
+height: 625px;
+left: 940px;
+top: 23px;
+}
+.btnnColor {
+    position: absolute;
+width: 243px;
+height: 80px;
+left: 91px;
+top: 313px;
+
+background: #18184C;
+border-radius: 50px;
+
+}
+#divright {
+    width: 40%;
+    float: right;
+    height: 50%;
+}
+#divleft{
+    width: 50%;
+float: left;
+}
+#a{
+    width: 75%;
+    float: right;
+}
+#b{
+    float: left;
+}
+#c{
+    width: 50%;
+    float: right;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+Tip: Go to our HTML Form Tutorial to learn more 
+ul.nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:36px; line-height:36px;
+    background:#0d7963; /* you can change the backgorund color here. */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+ul.nav li {
+    border-right:1px solid #189b80; /* you can change the border color matching to your background color */
+    float:left;
+}
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:#000000;
+    text-decoration:none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:#18184C;
+}
